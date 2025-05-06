@@ -4,15 +4,14 @@ A lightweight Go library for reading and inspecting files in the working directo
 
 Go Reference
 GitHub
-🚀 Installation
-bash
+# 🚀 Installation
+```bash
 
 go get github.com/Blaster-Void/Locaslib
-# intsall
+```
 
-```go get github.com/Blaster-Void/Locaslib```
 
-📖 Features
+# 📖 Features
 1. ReadWD() ([]os.DirEntry, error)
 
 Returns a slice of `os.DirEntry` for all files/directories in the current working directory.
